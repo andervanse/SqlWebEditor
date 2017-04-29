@@ -1,0 +1,18 @@
+[
+    {
+        "Id": "00000000-0000-0000-0000-000000000222",
+        "Database": "TESTE_01",
+        "Name": "TESTE_01",
+        "Server": "SQLEXPRESS"
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000123",
+        "Database": "SqlServer",
+        "Name": "Conexao02",
+        "Server": "102.13.12.33",
+        "DatabaseUser": {
+            "UserName": "admin",
+            "Password": "test@123"
+        }
+    }
+]

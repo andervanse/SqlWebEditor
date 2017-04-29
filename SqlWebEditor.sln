@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlEditor.WebApi", "SqlEditor.WebApi\SqlEditor.WebApi.csproj", "{CE302E51-A77D-4881-AF70-76FCDB090E30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{15B9EC5D-A70C-4619-A3F0-992525085D3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DD9AC0B4-DF9C-47BD-BEF6-1E5D68989454}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlEditor.WebApi.Test", "SqlEditor.WebApi.Test\SqlEditor.WebApi.Test.csproj", "{69659858-F163-4350-9D9D-FECBF5DFAA7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE302E51-A77D-4881-AF70-76FCDB090E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE302E51-A77D-4881-AF70-76FCDB090E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE302E51-A77D-4881-AF70-76FCDB090E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE302E51-A77D-4881-AF70-76FCDB090E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69659858-F163-4350-9D9D-FECBF5DFAA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69659858-F163-4350-9D9D-FECBF5DFAA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69659858-F163-4350-9D9D-FECBF5DFAA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69659858-F163-4350-9D9D-FECBF5DFAA7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE302E51-A77D-4881-AF70-76FCDB090E30} = {DD9AC0B4-DF9C-47BD-BEF6-1E5D68989454}
+		{69659858-F163-4350-9D9D-FECBF5DFAA7B} = {15B9EC5D-A70C-4619-A3F0-992525085D3F}
+	EndGlobalSection
+EndGlobal
